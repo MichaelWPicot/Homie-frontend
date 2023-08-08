@@ -25,6 +25,7 @@ const Layout = ({ children }: LayoutProps) => {
                 {children}
             </main>
 
+
             <footer>
                 <p>Homie - 2023 Front End Implementation</p>
             </footer>
