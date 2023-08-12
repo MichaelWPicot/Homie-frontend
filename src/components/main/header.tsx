@@ -3,15 +3,15 @@ import Link from 'next/link';
 
 const Header = () => {
     return (
-        <header>
+        <header className="bg-blue-600 p-4 text-white shadow-md">
             <nav>
-                <ul>
-                    <li><Link href="/"><a>Home</a></Link></li>
-                    <li><Link href="/about"><a>About</a></Link></li>
-                    <li><Link href="/contact"><a>Contact</a></Link></li>
-                    <li><Link href="/user"><a>Profile</a></Link></li>
-                    <li><Link href="/groups"><a>Groups</a></Link></li>
-                    <li><Link href="/tasks"><a>Tasks</a></Link></li>
+                <ul className="flex justify-center space-x-8">
+                    <li><Link href="/"><span className="hover:text-blue-300 transition duration-150 ease-in-out">Home</span></Link></li>
+                    <li><Link href="/about"><span className="hover:text-blue-300 transition duration-150 ease-in-out">About</span></Link></li>
+                    <li><Link href="/contact"><span className="hover:text-blue-300 transition duration-150 ease-in-out">Contact</span></Link></li>
+                    <li><Link href="/user"><span className="hover:text-blue-300 transition duration-150 ease-in-out">Profile</span></Link></li>
+                    <li><Link href="/groups"><span className="hover:text-blue-300 transition duration-150 ease-in-out">Groups</span></Link></li>
+                    <li><Link href="/tasks"><span className="hover:text-blue-300 transition duration-150 ease-in-out">Tasks</span></Link></li>
                 </ul>
             </nav>
         </header>
