@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
-    return (
-        <footer className="absolute bottom-0 w-full bg-blue-600">
-            <p className="flex justify-center space-x-4  text-white m-2">Homie - 2023 Front End Implementation</p>
-        </footer>
-    );
-}
+  return (
+    <footer className="bottom-0 w-full bg-blue-600">
+      <div className="bg-blue-700 p-4 text-center text-neutral-200">
+        Homie - 2023 Front End Implementation
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
